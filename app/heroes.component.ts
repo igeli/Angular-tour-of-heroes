@@ -5,7 +5,7 @@ import { HeroService } from './hero.service';
   selector: 'my-heroes',
   template: `
     <h1>{{title}}</h1>
-    <h2>My Heroes</h2>
+    <h3>Mis heroes</h3>
     <ul class="heroes">
       <li *ngFor="let hero of heroes"
         [class.selected]="hero === selectedHero"
